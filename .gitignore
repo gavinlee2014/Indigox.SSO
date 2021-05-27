@@ -28,6 +28,5 @@ _ReSharper*/
 *.vssscc
 $tf*/
 packages
-[Rr]eferences
 [Ww]eb[Aa]pp
 Sources/.vs/
