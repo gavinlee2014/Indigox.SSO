@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zones>
+  <xi:include href="widgets/sso.widgetzones.xml"         parse="xml" xpointer="xpath1(/zones/node())" xmlns:xi="http://www.w3.org/2003/XInclude" />
+</zones>

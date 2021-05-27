@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widgets>
+  <xi:include href="widgets/base.widgets.xml"      parse="xml" xpointer="xpath1(/widgets/widget)" xmlns:xi="http://www.w3.org/2003/XInclude" />
+  <xi:include href="widgets/sso.widgets.xml"       parse="xml" xpointer="xpath1(/widgets/widget)" xmlns:xi="http://www.w3.org/2003/XInclude" />
+</widgets>

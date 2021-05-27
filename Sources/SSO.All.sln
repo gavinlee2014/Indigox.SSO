@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{FA578C6F-06C9-4FE1-A37B-1DF7BC7119AC}"
+	ProjectSection(SolutionItems) = preProject
+		ivy.xml = ivy.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO.Web", "Indigox.SSO.Web\Indigox.SSO.Web.csproj", "{5B91415A-3AA3-4A76-8BC4-72C12CE03321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO.Application", "Indigox.SSO.Application\Indigox.SSO.Application.csproj", "{5329D137-C850-4852-AA11-6BAA4E24E194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO", "Indigox.SSO\Indigox.SSO.csproj", "{269F783D-CC93-4FED-93DC-D287BC4CA852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO.Config", "..\Configurations\Indigox.SSO.Config\Indigox.SSO.Config.csproj", "{AAE71382-BC1A-42DD-B94C-BA91DAC19814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO.Client", "Indigox.SSO.Client\Indigox.SSO.Client.csproj", "{99EE8BE3-07EE-4E33-8AE4-6AE53BE2EEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigox.SSO.Client.TestWeb", "..\Tests\Indigox.SSO.Client.TestWeb\Indigox.SSO.Client.TestWeb.csproj", "{3B49830A-4FEB-46B0-B221-D0F54404B077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B91415A-3AA3-4A76-8BC4-72C12CE03321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B91415A-3AA3-4A76-8BC4-72C12CE03321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B91415A-3AA3-4A76-8BC4-72C12CE03321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B91415A-3AA3-4A76-8BC4-72C12CE03321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5329D137-C850-4852-AA11-6BAA4E24E194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5329D137-C850-4852-AA11-6BAA4E24E194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5329D137-C850-4852-AA11-6BAA4E24E194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5329D137-C850-4852-AA11-6BAA4E24E194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269F783D-CC93-4FED-93DC-D287BC4CA852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269F783D-CC93-4FED-93DC-D287BC4CA852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269F783D-CC93-4FED-93DC-D287BC4CA852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269F783D-CC93-4FED-93DC-D287BC4CA852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE71382-BC1A-42DD-B94C-BA91DAC19814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE71382-BC1A-42DD-B94C-BA91DAC19814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE71382-BC1A-42DD-B94C-BA91DAC19814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE71382-BC1A-42DD-B94C-BA91DAC19814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EE8BE3-07EE-4E33-8AE4-6AE53BE2EEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EE8BE3-07EE-4E33-8AE4-6AE53BE2EEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EE8BE3-07EE-4E33-8AE4-6AE53BE2EEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EE8BE3-07EE-4E33-8AE4-6AE53BE2EEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B49830A-4FEB-46B0-B221-D0F54404B077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B49830A-4FEB-46B0-B221-D0F54404B077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B49830A-4FEB-46B0-B221-D0F54404B077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B49830A-4FEB-46B0-B221-D0F54404B077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Indigox.SSO.Logs" assembly="Indigox.SSO" default-lazy="false">
+
+  <class name="AccessRecord" table="AccessRecord">
+    <id name="ID" access="field.lowercase">
+      <column name="ID" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="AccountName" type="string" access="field.camelcase">
+      <column name="AccountName" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="IP" type="string" access="field.lowercase">
+      <column name="IP" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="LogTime" access="field.camelcase">
+      <column name="LogTime" sql-type="datetime" />
+    </property>
+    <property name="ServiceName" type="string" access="field.camelcase">
+      <column name="ServiceName" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="ServiceID" type="string" access="field.camelcase">
+      <column name="ServiceID" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="ServiceSerialID" access="field.camelcase">
+      <column name="ServiceSerialID" sql-type="int" />
+    </property>
+  </class>
+</hibernate-mapping>

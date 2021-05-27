@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widgets>
+  <widget name="RegisteredServiceListWidget" url="/SSO/Widgets/RegisteredService/ListWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/RegisteredService/ListWidget" />
+    </resources>
+  </widget>
+  
+  <widget name="RegisteredServiceEditWidget" url="/SSO/Widgets/RegisteredService/EditWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/RegisteredService/EditWidget" />
+    </resources>
+  </widget>
+
+  <widget name="RegisteredServiceCreateWidget" url="/SSO/Widgets/RegisteredService/CreateWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/RegisteredService/CreateWidget" />
+    </resources>
+  </widget>
+  
+  <widget name="MainMenuWidget" url="/SSO/Widgets/Common/MainMenuWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/Common/MainMenuWidget" />
+    </resources>
+  </widget>
+
+  <widget name="RegisteredServiceListToolBarWidget" url="/SSO/Widgets/Toobar/ToolbarWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/RegisteredService/ListToolBarWidget"/>
+    </resources>
+  </widget>
+
+  <widget name="LogRecordListWidget" url="/SSO/Widgets/LogRecord/ListWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/LogRecord/ListWidget" />
+    </resources>
+  </widget>
+
+  <widget name="AccessRecordListWidget" url="/SSO/Widgets/AccessRecord/ListWidget.htm">
+    <resources>
+      <resource url="/SSO/Widgets/AccessRecord/ListWidget" />
+    </resources>
+  </widget>
+</widgets>

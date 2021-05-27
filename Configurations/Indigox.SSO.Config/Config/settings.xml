@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <include>
+    <shim categoryName="网站基础配置" key="Web.Url"          defaultValue=""                  title="网站根路径" description="" />
+    <shim categoryName="网站基础配置" key="Web.Title"        defaultValue=""                  title="网站标题"   description="" />
+    <shim categoryName="网站基础配置" key="Web.CustomerName" defaultValue=""                  title="客户名称"   description="" />
+    <shim categoryName="网站基础配置" key="Web.ContactEmail" defaultValue=""                  title="联系邮件"   description="" />
+    <shim categoryName="网站基础配置" key="Web.LogoUrl"      defaultValue="/res/img/logo.png" title="LOGO 图片"  description="" />
+
+    <shim categoryName="JsLib配置"   key="JsLib.IntegrateLync"       defaultValue="false" title="是否集成Lync"       description="" />
+    <shim categoryName="JsLib配置"   key="JsLib.IntegrateSharePoint" defaultValue="false" title="是否集成SharePoint" description="" />
+    <shim categoryName="JsLib配置"   key="JsLib.IntegrateUUV"        defaultValue="false" title="是否集成UUV"        description="" />
+
+    <class className="Indigox.Settings.Service.NavigationService, Indigox.Settings" />
+    <class className="Indigox.Settings.WebUtility.NavigationRemoteLoader, Indigox.Settings" />
+  </include>
+</settings>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Indigox.SSO.Services" assembly="Indigox.SSO" default-lazy="false">
+
+  <class name="RegisteredService" table="RegisteredService">
+    <id name="ID" access="field.lowercase">
+      <column name="ID" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="Name" type="string">
+      <column name="Name" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="ServiceID" type="string">
+      <column name="ServiceID" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="SecretKey" type="string">
+      <column name="SecretKey" sql-type="varchar(100)" length="100" />
+    </property>
+    <property name="LoginUrl" type="string">
+      <column name="LoginUrl" sql-type="varchar(200)" length="200" />
+    </property>
+    <property name="LoginOutUrl" type="string">
+      <column name="LoginOutUrl" sql-type="varchar(200)" length="200" />
+    </property>
+    <property name="IsEnabled" type="bool">
+      <column name="IsEnabled" sql-type="bit" />
+    </property>
+    <property name="IsWindowsAuthentication" type="bool">
+      <column name="IsWindowsAuthentication" sql-type="bit" />
+    </property>
+    <property name="AccessLoginUrl" type="string">
+      <column name="AccessLoginUrl" sql-type="varchar(200)" length="200" />
+    </property>
+    <property name="IsDefaultService" type="bool">
+      <column name="IsDefaultService" sql-type="bit" />
+    </property>
+    <property name="IsAllowedToProxy" type="bool">
+      <column name="IsAllowedToProxy" sql-type="bit" />
+    </property>
+    <property name="CreateTime">
+      <column name="CreateTime" sql-type="datetime" />
+    </property>
+  </class>
+</hibernate-mapping>

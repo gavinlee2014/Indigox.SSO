@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AAE71382-BC1A-42DD-B94C-BA91DAC19814}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Indigox.SSO.Config</RootNamespace>
+    <AssemblyName>Indigox.SSO.Config</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthenticationService.asmx" />
+    <Content Include="Config\factories.xml" />
+    <Content Include="Config\instanceMaps.xml" />
+    <Content Include="Config\instructions.xml" />
+    <Content Include="Config\security.nhb.cfg.xml" />
+    <Content Include="Config\sso.nhb.cfg.xml" />
+    <Content Include="Config\stateContainer.xml" />
+    <Content Include="Config\widgets.xml" />
+    <Content Include="Config\Widgets\sso.widgets.xml" />
+    <Content Include="Config\Widgets\sso.widgetzones.xml" />
+    <Content Include="Config\widgetzones.xml" />
+    <Content Include="Config\settings.xml" />
+    <Content Include="indigo.database.config" />
+    <Content Include="indigo.warmup.config" />
+    <Content Include="log4net.config" />
+    <Content Include="Login.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="LoginState.aspx" />
+    <Content Include="Logout.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Ticket.asmx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Validate.ashx" />
+    <Content Include="WindowsAuthenticationHandler.ashx" />
+  </ItemGroup>
+  <Import Project="..\..\Build\configurations.proj" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\Build\webapp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

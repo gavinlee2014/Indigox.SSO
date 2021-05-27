@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+  <info organisation="indigox" module="sso" />
+  <configurations>
+    <conf name="compile" visibility="private" />
+    <conf name="test" visibility="private" extends="compile" />
+    <conf name="default" visibility="public" extends="compile" />
+  </configurations>
+  <publications>
+    <artifact name="indigox.sso" type="dll" ext="dll" />
+    <artifact name="indigox.sso.application" type="dll" ext="dll" />
+    <artifact name="indigox.sso.application" type="zip" ext="zip" />
+    <artifact name="indigox.sso.client" type="dll" ext="dll" />
+    <artifact name="indigox.sso.config" type="zip" ext="zip" />
+    <artifact name="indigox.sso.web" type="zip" ext="zip" />
+  </publications>
+  <dependencies>
+    <dependency org="indigox" name="settings" rev="1.0.0.+" />
+    <dependency org="org.nunit" name="NUnit.Framework" rev="2.6.0.12051" conf="test->*" />
+    <dependency org="Newtonsoft.Json" name="Json.NET20" rev="3.5-release8" />
+  </dependencies>
+</ivy-module>

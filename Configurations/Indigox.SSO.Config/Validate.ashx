@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Class="Indigox.SSO.Application.Web.ValidateHandler, Indigox.SSO.Application" %>

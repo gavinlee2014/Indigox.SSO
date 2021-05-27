@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zones>
+
+  <page url="/SSO/index.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="RegisteredServiceListToolBarWidget" />
+      <widget name="RegisteredServiceListWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+
+  <page url="/RegisteredService/Edit.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="RegisteredServiceEditWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+
+  <page url="/RegisteredService/Create.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="RegisteredServiceCreateWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+
+  <page url="/LogRecord/List.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="LogRecordListWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+
+  <page url="/AccessRecord/List.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="AccessRecordListWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+  
+  <page url="/RegisteredService/List.htm" deviceType="pc">
+    <zone name="HeadZone">
+      <widget name="NavMenuWidget" />
+    </zone>
+    <zone name="BarZone">
+    </zone>
+    <zone name="NavZone">
+    </zone>
+    <zone name="SideZone">
+      <widget name="MainMenuWidget" />
+    </zone>
+    <zone name="WorkZone">
+      <widget name="RegisteredServiceListToolBarWidget" />
+      <widget name="RegisteredServiceListWidget" />
+    </zone>
+    <zone name="FooterZone">
+      <widget name="FooterWidget" />
+    </zone>
+  </page>
+</zones>

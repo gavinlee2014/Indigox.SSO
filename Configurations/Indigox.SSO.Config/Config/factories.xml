@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <factory assemblyName="Indigox.SSO" path="Config\sso.nhb.cfg.xml" connectionString="SSO" autoBind="true" />
+  <factory assemblyName="Indigox.Settings" path="Config\settings.nhb.cfg.xml" connectionString="Settings" autoBind="true" />
+  <factory assemblyName="Indigox.Settings.Application" path="Config\settingquery.nhb.cfg.xml" connectionString="Settings" autoBind="false" />
+  <factory assemblyName="Indigox.CMS.Security" path="Config\security.nhb.cfg.xml" connectionString="Settings" autoBind="true" />
+</config>

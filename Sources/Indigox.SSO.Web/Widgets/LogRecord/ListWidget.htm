@@ -1,0 +1,57 @@
+﻿<div class="control-panel panel-collapsed searchpanel">
+    <h1>
+        <span>查询</span>
+        <input type="button" />
+    </h1>
+    <div class="body">
+        <div id="SearchPanel" class="control-content contentform">
+        </div>
+        <div class="control-content funcpanel">
+            <input id="btnSearch" type="button" class="control-button long searchbutton" value="查询" />
+        </div>
+    </div>
+</div>
+<div class="biz-common-list">
+    <dl>
+        <dt>
+            <label style="width: 30%;">
+                用户名</label>
+            <label style="width: 30%;">
+                登录IP</label>
+            <label style="width: 20%;">
+                操作时间</label>
+            <label style="width: 15%;">
+                操作</label>
+        </dt>
+        <dd>
+            <ul id="LogRecordList" class="control-datalist">
+                <li id="LogRecord" class="control-template">
+                    <div style="width: 30%;">
+                        <label id="AccountName" class="control-label">
+                        </label>
+                    </div>
+                    <div style="width: 30%;">
+                        <label id="IP" class="control-label">
+                        </label>
+                    </div>
+                    <div style="width: 20%;">
+                        <label id="LogTime" class="control-label">
+                        </label>
+                    </div>
+                    <div style="width: 15%;">
+                        <label id="Action" class="control-label">
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+    <div id="Paging" class="control-paging">
+    </div>
+</div>
+<div class="control-tooltip invisible" id="SyncTaskToolTip">
+    <div id="SyncTaskToolTipContent" class="control-content">
+        <label id="ErrorMessage" class="control-label">
+        </label>
+    </div>
+</div>

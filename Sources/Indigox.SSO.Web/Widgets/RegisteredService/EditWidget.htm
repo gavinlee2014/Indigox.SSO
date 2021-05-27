@@ -1,0 +1,118 @@
+﻿<div class="control-panel panel-expanded">
+    <h1>
+        <span>编辑外接系统</span>
+        <input type="button" />
+    </h1>
+    <div class="body">
+        <div id="EditArea" class="control-content">
+            <ul class="form_list">
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                系统编号</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="ServiceID" class="control-textbox text" readonly="readonly" />
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                系统名称</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="Name" class="control-textbox text" />
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                密钥</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="SecretKey" class="control-textbox text" readonly="readonly" />
+                        </dd>
+                    </dl>
+                </li>
+                 <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                WinAuth链接</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="AccessLoginUrl" class="control-textbox text" />
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                登录链接</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="LoginUrl" class="control-textbox text" />
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                注销链接</label>
+                        </dt>
+                        <dd>
+                            <input type="text" id="LoginOutUrl" class="control-textbox text" />
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <label>
+                                系统配置</label>
+                        </dt>
+                        <dd>
+                            <div class="control-checkbox" id="IsEnabled">
+                                <input type="checkbox" />
+                                <label>
+                                    启用</label>
+                            </div>
+                            <div class="control-checkbox" id="IsWindowsAuthentication">
+                                <input type="checkbox" />
+                                <label>
+                                    Windows验证</label>
+                            </div>
+                            <div class="control-checkbox" id="IsDefaultService">
+                                <input type="checkbox" />
+                                <label>
+                                    默认系统</label>
+                            </div>
+                            <div class="control-checkbox" id="IsAllowedToProxy">
+                                <input type="checkbox" />
+                                <label>
+                                    允许代理</label>
+                            </div>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="control-validator invisible" id="Validator">
+                <input type="button" />
+                <div class="message">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="toolbar">
+    <input type="button" id="btnSave" class="control-button" value="保存" />
+    <input type="button" id="btnDelete" class="control-button" value="删除" />
+    <input type="button" id="btnReturn" class="control-button" value="返回" />
+</div>
