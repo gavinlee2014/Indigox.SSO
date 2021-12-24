@@ -28,6 +28,33 @@ namespace Indigox.SSO
             }
         }
 
+        public string WeChatEntLoginUrl
+        {
+            get
+            {
+                string url = ConfigurationManager.AppSettings["WECHAT_ENT_LOGIN_URL"];
+                return url;
+            }
+        }
+
+        public string WeChatEntAuthUserName
+        {
+            get
+            {
+                string url = ConfigurationManager.AppSettings["WECHAT_ENT_AUTH_USERNAME"];
+                return url;
+            }
+        }
+
+        public string WeChatEntAuthUserPwd
+        {
+            get
+            {
+                string url = ConfigurationManager.AppSettings["WECHAT_ENT_AUTH_USERPWD"];
+                return url;
+            }
+        }
+
         public string DingLoginUrl
         {
             get

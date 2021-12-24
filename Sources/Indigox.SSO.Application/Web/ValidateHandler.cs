@@ -85,6 +85,10 @@ namespace Indigox.SSO.Application.Web
             {
                 return string.Format("{0}?{1}", Settings.Instance.DingLoginUrl, request.QueryString);
             }
+            else if ((request.UserAgent != null) && (request.UserAgent.Contains("MicroMessenger")))
+            {
+                return string.Format("{0}?{1}", Settings.Instance.WeChatEntLoginUrl, request.QueryString);
+            }
             else if (request.Params["useFormLogin"] != null)
             {
                 return string.Format("{0}?{1}", Settings.Instance.FormLoginUrl, request.QueryString);
@@ -104,6 +108,8 @@ namespace Indigox.SSO.Application.Web
         public virtual void ProcessRequest(HttpContext context)
         {
             Log.Debug("validate handler processing...");
+            Log.Debug("user agent:" + context.Request.UserAgent);
+            Log.Debug("RawUrl:" + context.Request.RawUrl);
             TicketGrantingTicketStorage tgtStorage = new TicketGrantingTicketStorage(context);
             ITicketGrantingTicket tgt = tgtStorage.Load();
             if (tgt == null)

@@ -83,6 +83,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Web\ValidateHandler.cs" />
+    <Compile Include="Web\WeChatEntAuthenticationHandler.cs" />
     <Compile Include="Web\WindowsAuthenticationHandler.cs" />
     <Compile Include="Web\WindowsAuthenticationServiceLauncher.cs" />
   </ItemGroup>

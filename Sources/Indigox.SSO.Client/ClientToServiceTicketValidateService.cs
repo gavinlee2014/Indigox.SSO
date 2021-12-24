@@ -46,6 +46,7 @@ namespace Indigox.SSO.Client
             catch (Exception ex)
             {
                 Log.Debug("ValidateClientToServiceTicketAndServiceTicket failed, because of " + ex.Message);
+                Log.Debug(ex.ToString());
                 return false;
             }
 

@@ -58,6 +58,7 @@ namespace Indigox.SSO.Client.Util
                 Type type = typeof( T );
 
                 string plainText = DESCrypt.Decrypt( token, secretKey );
+                Log.Debug("Deserialize result:" + plainText);
                 string[] segments = plainText.Split( new string[] { ";" }, StringSplitOptions.None );
 
                 T ticket = (T)Activator.CreateInstance( type );
